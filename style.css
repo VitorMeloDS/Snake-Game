@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 95vh;
+    width: 95vw;
+    text-align: center;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#053e45;
+    color: #ffffff;
+}
+
+#container{
+    margin-top: 10vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divMenu{
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+#camp{
+    /* box-shadow: 5px 5px 50px 50px #00000087; */
+    margin-top: 2vh;
+    box-shadow: 0 0 5vh #3da38f9f;
+}
+
+#scoreds p{
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 20px;
+}
